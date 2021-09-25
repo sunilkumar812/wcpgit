@@ -1,2 +1,4 @@
 This is local file from git.
 <Now we edit second file>
+Added third
+and fourth line
