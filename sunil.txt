@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 Hello Sunil Kumar
 My Name is Sunil Kumar 
 From Faridbad
 state: Haryana
-
->>>>>>> branch1
