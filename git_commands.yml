@@ -1,0 +1,459 @@
+git Commands with title
+git add
+git init
+git log --oneline
+git show
+git commit
+git status
+git revert
+git clean -n
+git clean -f
+git tag -a important -m "This is very important commit" a4d5587
+git tag
+git show important
+git clone
+git push origin master
+========================
+Git Branch
+git branch
+git branch branch1
+git checkout branch1
+git checkout master
+git branch
+
+Branch merge:
+git checkout master
+git merger branch1
+vi filename
+git conflict
+
+=============================
+git stashing
+
+
+
+===============
+git reset
+============================History===============================
+hp@hp-PC MINGW64 /f/Study Documents Linux, AWS, Devops/Git Videos/Git Repos/wcpgit (branch2)
+$ history
+    1  git
+    2  pwd
+    3  git
+    4  git config --global user.name sunil
+    5  git config --global user.email "skyadav812@gmail.com"
+    6  git config --list
+    7  git config --global co.editor vim
+    8  touch index.html
+    9  vim index.html
+   10  git info
+   11  git clone
+   12  git init --bare
+   13  ls -ltr
+   14  git info
+   15  git branch
+   16  git info log
+   17  git init --bare
+   18  ls -l
+   19  git config --global user.name "sunil"
+   20  git config --global user.email "sunil@gmail.com"
+   21  git config --list
+   22  git clone https://github.com/sunilkumar812/Ansible.git
+   23  git config --list
+   24  git list
+   25  git log
+   26  git branch
+   27  git init
+   28  ls -l
+   29  git status
+   30  git status
+   31  git add .
+   32  git status
+   33  git status
+   34  git commit -m "My first file commit into local repo"
+   35  git status
+   36  git log
+   37  git status
+   38  git log
+   39  git status
+   40  git add local_file.txt
+   41  git status
+   42  git commit -m "one line added"
+   43  git status
+   44  git log
+   45  git remote add origin https://github.com/sunilkumar812/wcpgit.git
+   46  git status
+   47  git push -u origin master
+   48  git push -u origin master
+   49  git push -u origin master
+   50  git push -u origin master
+   51  git push -u origin master
+   52  git branch
+   53  git staus
+   54  git status
+   55  git log
+   56  git status
+   57  git log
+   58  git branch
+   59  git branch
+   60  git config
+   61  git config --global
+   62  git config --global
+   63  git status
+   64  git status
+   65  git add local_file.txt
+   66  git status
+   67  git commit -m " third time commit" local_file.txt
+   68  git log
+   69  git status
+   70  git push -u origin master
+   71  git show 694c8e17fceb2ad9e7093cc32e3a0204bedaae8f
+   72  git log
+   73  git pull origin master
+   74  git log
+   75  git log
+   76  git log
+   77  git pull origin
+   78  git log
+   79  git log
+   80  ls -l
+   81  pwd
+   82  cd ..
+   83  ls -l
+   84  git log
+   85  cd wcpgit
+   86  git log
+   87  git pull origin master
+   88  git pull origin master
+   89  ls -l
+   90  ls -l
+   91  ls -l
+   92  pwd
+   93  vi .gitignore
+   94  git status
+   95  git add .
+   96  git status
+   97  git commit -m " add ignore file "
+   98  git status
+   99  git log
+  100  touch file1.txt file2.txt file3.java file4.css file5.css
+  101  ls -l
+  102  git status
+  103  git add .
+  104  git status
+  105  git commit -m " add only text files" .
+  106  git status
+  107  ls -l
+  108  git log
+  109  git push oirgin master
+  110  git push origin master
+  111  git log
+  112  git status
+  113  git log --grep "ignore"
+  114  ls -l
+  115  git status
+  116  touch abcd.txt
+  117  git status
+  118  git add abcd.txt
+  119  git status
+  120  git reset
+  121  git status
+  122  git add
+  123  git add .
+  124  git status
+  125  git reset
+  126  git status
+  127  git status
+  128  git init
+  129  git status
+  130  git clone https://github.com/sunilkumar812/wcpgit.git
+  131  git log
+  132  ls -l
+  133  cd wcpgit/
+  134  ls -l
+  135  git status
+  136  git log
+  137  git list
+  138  git list --global
+  139  ls -l
+  140  cd ..
+  141  ls -l
+  142  rm -rf wcpgit/
+  143  ls -l
+  144  git init
+  145  git status
+  146  git log
+  147  git remote add origin https://github.com/sunilkumar812/wcpgit.git
+  148  git origin
+  149  git status
+  150  git log
+  151  git pull origin master
+  152  git status
+  153  git log
+  154  git status
+  155  git add .
+  156  git status
+  157  git commit -m "added one file from git clone"
+  158  git status
+  159  git log
+  160  git log
+  161  git push -u origin master
+  162  git log
+  163  git pull origin master
+  164  git pull origin master
+  165  ls -l
+  166  git log -1
+  167  git log -2
+  168  git log --oneline
+  169  git log --grep " ignore"
+  170  git status
+  171  git add abcd.txt
+  172  git commit -m "this is first revert file" .
+  173  git status
+  174  vi abcd.txt
+  175  git add .
+  176  git commit -m " second commit" abcd.txt
+  177  git log
+  178  git log -4
+  179  cat abcd.txt
+  180  cat abcd.txt
+  181  git log -2
+  182  git revert a4d55874ed1a743704e5e92b9fb1cdf6004815d7
+  183  cat abcd.txt
+  184  git log -4
+  185  vi sum.txt
+  186  git add .
+  187  git commit -m "sum questions added" .
+  188  git log -3
+  189  vi sum.txt
+  190  git add .
+  191  git commit -m " second add values" .
+  192  git log -2
+  193  cat sum.txt
+  194  vi sum.txt
+  195  git add .
+  196  git commit -m " now we modified some sum" sum.txt
+  197  git config core.autocrlf false
+  198  git log -3
+  199  cat sum.txt
+  200  git show 2e52b251598903c086983aa20bce0e70f568ce39
+  201  git show 329f7dd0e03285f34e0594e1e7e29db610b4b016
+  202  git revert 329f7dd0e03285f34e0594e1e7e29db610b4b016
+  203  cat sum.txt
+  204  git log -3
+  205  git revert 2e52b251598903c086983aa20bce0e70f568ce39
+  206  cat sum.txt
+  207  git log -3
+  208  git show cb2fd5a97182c7f0cdc426773d7a42346d169896
+  209  git show 240517494ea52eda226c29d765a07f4948fc70bd
+  210  cat sum.txt
+  211  cat sum.txt
+  212  git log --oneline
+  213  git log --oneline
+  214  touch filex filey filez
+  215  git status
+  216  git clean -n
+  217  git clean -f
+  218  git show
+  219  git status
+  220   git log --online
+  221  git log --oneline
+  222  git tag -a important -m "This is very important commit" a4d5587
+  223  git tag
+  224  git show important
+  225  git tag
+  226  git log --oneline
+  227  git log --oneline
+  228  git tag -d importantt
+  229  git tag -d important
+  230  git tag
+  231  git log --oneline
+  232  git log --oneline
+  233  git show
+  234  git status
+  235  git status
+  236  git branch
+  237  git branch
+  238  git branch
+  239  git branch
+  240  git branch branch1
+  241  git branch
+  242  git branch2
+  243  git branch branch2
+  244  git branch
+  245  git checkout branch2
+  246  git branch
+  247  ls -l
+  248  git log
+  249  git log --oneline
+  250  git branch
+  251  git checkout branch1
+  252  git branch
+  253  git branch -d branch1
+  254  git checkout master
+  255  git branch
+  256  git branch -d branch2
+  257  git branch
+  258  git branch -d branch1
+  259  git branch
+  260  git branch
+  261  git branch branch1
+  262  git branch
+  263  git checkout branch1
+  264  git branch
+  265  git log --oneline
+  266  vi branch1_file.sh
+  267  git status
+  268  ls -l
+  269  git checkout master
+  270  ls -l
+  271  git status
+  272  git checkout branch1
+  273  git branch
+  274  git status
+  275  git add branch1_file.sh
+  276  git status
+  277  git commit -m " first commit from branch1" branch1_file.sh
+  278  git log --oneline
+  279  git branch
+  280  git checkout master
+  281  git log --oneline
+  282  ls -l
+  283  gti status
+  284  ls -l
+  285  git branch
+  286  git checkout branch1
+  287  git branch
+  288  ls -l
+  289  git branch
+  290  git checkout master
+  291  git branch
+  292  ls -l
+  293  git merge branch1
+  294  ls -l
+  295  git log --oneline
+  296  git push origin master
+  297  git branch
+  298  ls -l
+  299  vi sunil.txt
+  300  ls -l
+  301  git status
+  302  git add .
+  303  ls -l
+  304  git status
+  305  git commit -m " commited from master by sunil" sunil.txt
+  306  git status
+  307  git log --oneline
+  308  git branch
+  309  git checkout branch1
+  310  git branch
+  311  vi sunil.txt
+  312  git add .
+  313  git commit -m "This commeted from branch1 by Sunil" sunil.txt
+  314  git checkout master
+  315  git branch
+  316  git branch
+  317  git merge branch1
+  318  vi sunil.txt
+  319  git status
+  320  git add .
+  321  git status
+  322  git commit -m "resovled conflict"
+  323  git log --oneline
+  324  vi sunil.txt
+  325  git branch
+  326  git checkout branch1
+  327  cat sunil.txt
+  328  vi sunil.txt
+  329  git add
+  330  git add .
+  331  git commit -m " fix state issue" sunil.txt
+  332  git status
+  333  git log --oneline
+  334  git branch
+  335  git checkout master
+  336  git branch
+  337  cat sunil.txt
+  338  git mergre branch1
+  339  git merge branch1
+  340  vi sunil.txt
+  341  git status
+  342  git add .
+  343  git commit -m "Merge issue fixed with sunil.txt" sunil.txt
+  344  git commit -m "Merge issue fixed with sunil.txt"
+  345  cat sunil.txt
+  346  vi sunil.txt
+  347  git status
+  348  git add .
+  349  git status
+  350  git commit -m "removed some head and branch rows" sunil.txt
+  351  git commit -m "removed some head and branch rows"
+  352  git commit -m "removed some head and branch rows"
+  353  git status
+  354  cat sunil.txt
+  355  cat sunil.txt
+  356  git log --online
+  357  git log --oneline
+  358  git branch
+  359  touch demofile
+  360  git add .
+  361  git commit -m "Demo file"
+  362  vi demofile
+  363  git stash
+  364  vi demofile
+  365  git stash list
+  366  cat demofile
+  367  git stash
+  368  git stash list
+  369  cat demofile
+  370  git stash apply stash@{1}
+  371  cat demofile
+  372  git add .
+  373  git commit -m "first code is commited and done"
+  374  cat demofile
+  375  git stash apply stash@{0}
+  376  vi demofile
+  377  git status
+  378  git add .
+  379  git commit -m " added second code as well"
+  380  git status
+  381  git stash
+  382  git stash list
+  383  cat demofile
+  384  git log --oneline
+  385  git show stash@{1}:
+  386  history
+  387  git branch
+  388  vi testfile.txt
+  389  git add .
+  390  git status
+  391  git reset .
+  392  git status
+  393  git add .
+  394  touch abcxyz
+  395  git status
+  396  git add .
+  397  git status
+  398  git reset .
+  399  git status
+  400  git add .
+  401  git status
+  402  git reset --hard
+  403  git status
+  404  git status
+  405  git branch branch2
+  406  git branch
+  407  ls -l
+  408  git checkout branch1
+  409  ls -l
+  410  git checkout branch2
+  411  git branch
+  412  ls -l
+  413  cat demofile
+  414  git stash
+  415  git shash list
+  416  hist
+  417  history
+
+====================================================================
+
